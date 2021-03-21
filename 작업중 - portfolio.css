@@ -1,0 +1,340 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* a테그 하이퍼링크 표시 삭제 */
+a { text-decoration:none }
+a:link {color:#035cf9}
+a:visited {color:#035cf9}
+a:hover {color:#FFFFFF}
+
+
+h3 > img {
+  top:40px;
+  left: 35%;
+  position: relative;
+  text-align: center;
+}
+h3 div {
+  font-size: 25px;
+  text-decoration: None;
+  text-align: center;
+  bottom : 300px;
+  font-family: jost;
+  font-weight: Regular;
+  color: #000000;
+}
+
+h3  div  span {
+    font-size: 15px;
+    text-decoration: None;
+    text-align: center;
+    font-family: jost;
+    font-weight: light;
+    color: #000000;
+  }
+
+h4 > a:link {color:#000000}
+h4 > a:visited {color:#000000}
+h4 > a:hover {color:#FFFFFF}
+
+/* 기본 설정 */
+body {background-color: #ccd6db;}
+hdader {width: 1920px; margin:28px auto;}
+header > div nav {display: flex; position: relative; padding 0 27.5px;}
+header > div nav a {flex: 1; display: block; height:12px;  width: 200x;
+  height: 37px;
+  font-size: 15px;
+  text-align: center;
+  color: #000000;}
+  header > div nav a:hover { border-bottom: : 2px solid }
+
+header > div h4 { display: block; height:200px; top:850px;  position: fixed; width: 150x; left: 50%;
+  transform: translate(-50%, 0);
+  font-family: 'Displace 2.0';
+  font-size: 28px;
+  margin: 0 0 0 0;
+  z-index: 0;
+  color: #000000;}
+
+
+/* 메뉴바 */
+  #navbar ul li{
+          list-style:none;
+          background-color: rgba(0,0,0,0);
+          display: inline-block;
+          margin-left: 3%;
+          margin-right: 3%;
+        }
+        #navbar ul li a{
+          font-weight:regular;
+          font-size: 35px;
+          color:black;
+          text-decoration: None;
+          margin-top: 20px
+        }
+        #about{
+          margin-left:3%;
+        }
+        #work{
+          float:right;
+        }
+        #contact{
+          float:right;
+        }
+        #about a:hover{
+          color: white;
+        }
+        #work a:hover{
+          color: white;
+        }
+        #contact a:hover{
+          color: white;
+        }
+
+        .vertical_linehh {
+                position:absolute;
+                z-index:-4;
+                border-left: 1px solid #96999b;
+                border-bottom: 0px;
+                height: 70vw;
+                top:0%;
+                left:50%;
+              }
+
+              .horizontal_line {
+                      position:absolute;
+                      z-index:-4;
+                      border-left: 1px solid #96999b;
+                      border-bottom: 0px;
+                      width: 98vw;
+                      top:50%;
+                      left:0%;
+                    }
+
+.circle {
+  top: 50px;
+  left: 150px;
+	width: 840px;
+	height: 840px;
+	border: 1px solid #7f7f7f;
+	background-color: transparent;
+	border-radius: 50%;
+  Position: absolute;
+  Z-index: -3;
+
+
+}
+
+.line {
+	width: 840px;
+	height: 840px;
+	border: 1px solid #7f7f7f;
+	background-color: transparent;
+}
+
+.smallnum1 {
+  font-family: Jost;
+  font-size: 15px;
+  text-align: left;
+  font-weight: regular;
+  color: #7f7f7f;
+}
+
+.smallnum2 {
+  font-family: Jost;
+  font-size: 15px;
+  text-align: right;
+  font-weight: regular;
+  color: #7f7f7f;
+}
+
+.menu1 {
+  width: 1800px;
+  height: 165px;
+  margin: 10px 15px 10px 3px;
+  font-family: 'Displace 2.0';
+  font-size: 160px;
+  font-weight: 500;
+  font-style: medium;
+  text-align: center;
+  color: #035cf9;
+  border: 15px
+}
+
+.menu2 {
+  width: 1800px;
+  height: 165px;
+  margin: 10px 15px 10px 3px;
+  font-family: 'Displace 2.0';
+  font-size: 160px;
+  font-weight: 500;
+  font-style: medium;
+  text-align: right;
+  color: #035cf9;
+  border: 15px
+}
+
+.menu3 {
+  width: 1800px;
+  height: 165px;
+  margin: 10px 15px 10px 3px;
+  font-family: 'Displace 2.0';
+  font-size: 160px;
+  font-weight: 500;
+  font-style: medium;
+  text-align: left;
+  color: #035cf9;
+  border: 15px
+}
+
+.num1{
+  height: 37px;
+  margin: 0 447px 13px 0;
+  font-family: Jost;
+  font-size: 15px;
+  text-align: left;
+  color: #7f7f7f;
+  position: top;
+  Z-index: 2;
+}
+
+.num2{
+  height: 37px;
+  margin: 0 447px 13px 0;
+  font-family: Jost;
+  font-size: 15px;
+  text-align: right;
+  color: #7f7f7f;
+  position: relative;
+  Z-index: 2;
+}
+
+.num3{
+  height: 37px;
+  margin: 0 447px 13px 0;
+  font-family: Jost;
+  font-size: 15px;
+  text-align: left;
+  color: #7f7f7f;
+  position: bottom;
+  Z-index: 2;
+}
+
+
+
+/*움직똥글css 시작*/
+#wrapper {
+  position: relative;
+  width:30em;
+  Z-index: -1;
+  margin: 0 auto;
+}
+
+
+/* IMAGES*/
+
+
+	img.img-head {
+		width: 50%;
+		position: absolute;
+		top:-65%;
+		left: 25%;
+		z-index: -50;
+	}
+	article img {
+		width: 25%;
+		position: absolute;
+		top: -50%;
+		z-index: -50;
+	}
+	article:nth-child(odd) img {
+		right:0;
+	}
+
+
+/* CSS Bubbles */
+#parallax-lvl-0, #parallax-lvl-1, #parallax-lvl-2, #parallax-lvl-3 {
+  position: absolute;
+  top: 0;
+}
+#parallax-lvl-1 {
+  z-index:0;
+}
+#parallax-lvl-2 {
+  z-index:10;
+}
+#parallax-lvl-3 {
+  z-index:100;
+}
+
+.bubble {
+  border-radius: 100%;
+  position: absolute;
+  opacity: 0.7;
+}
+.size1 {
+  width:247px;
+  height:247px;
+}
+.size2 {
+  width:247px;
+  height:247px;
+}
+.size3 {
+  width:247px;
+  height:247px;
+}
+.size4 {
+  width:60px;
+  height:60px;
+}
+.white {
+  background-color: #9dbeed;
+}
+.blue {
+  background-color: #035cf9;
+}
+
+/* Bubble positions */
+#b0-1 {
+  top:-20px;
+  left:-280px;
+}
+#b0-2 {
+  top:180px;
+  left:720px;
+}
+#b0-3 {
+  top:500px;
+  left:0px;
+}
+
+
+
+#b1-1 {
+  top:-180px;
+  left:-200px;
+}
+#b1-2 {
+  top:1000px;
+  left:-220px;
+}
+#b1-3 {
+  top:300px;
+  left:300px;
+}
+
+
+#b3-1 {
+  top:50px;
+  left:-10px;
+}
+#b3-2 {
+  top:1150px;
+  left:530px;
+}
+#b3-3 {
+  top:800px;
+  left:-600px;
+}
+/*움직똥글css 끝*/
