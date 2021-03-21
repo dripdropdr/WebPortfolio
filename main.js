@@ -6,7 +6,7 @@ var app = express( );
 
 
 app.get('/',function(req, res){
-  res.sendFile(__dirname+'/data/main.html');
+  res.sendFile(__dirname+'/index.html');
 })
 
 // ______________work page
