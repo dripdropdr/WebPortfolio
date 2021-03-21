@@ -40,5 +40,4 @@ app.use(express.static(__dirname));
 var server = app.listen(8088, function(){
   // var host = app.address().address
   // var port = app.address().port
-  console.log("Example app listening at http://127.0.0.1");
 })
