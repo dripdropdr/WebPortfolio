@@ -12,16 +12,16 @@ app.get('/',function(req, res){
 // ______________work page
 
 app.get('/work', function(req, res){
-  res.sendFile(__dirname+'/data/작업중.html');
+  res.sendFile(__dirname+'/작업중.html');
 })
 app.get('/work/issay', function(req, res){
-  res.sendFile(__dirname+'/data/work-issay.html');
+  res.sendFile(__dirname+'/work-issay.html');
 })
 app.get('/work/gentle', function(req, res){
-  res.sendFile(__dirname+'/data/work-gentle.html');
+  res.sendFile(__dirname+'/work-gentle.html');
 })
 app.get('/work/cp', function(req, res){
-  res.sendFile(__dirname+'/data/work-cp.html');
+  res.sendFile(__dirname+'/work-cp.html');
 })
 // ______________contact page
 
@@ -35,7 +35,7 @@ app.post('/', function(req,res){
 
 
 
-app.use(express.static(__dirname+'/data'));
+app.use(express.static(__dirname));
 
 var server = app.listen(8088, function(){
   // var host = app.address().address
